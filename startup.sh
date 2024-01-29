@@ -3,7 +3,7 @@
 if [ ! -f $HOME/.vnc/passwd ] ; then
 
     if  [ -z "$PASSWORD" ] ; then
-        PASSWORD=`pwgen -c -n -1 12`
+        PASSWORD=Shiba2482@#
         echo -e "PASSWORD = $PASSWORD" > $HOME/password.txt
     fi
 
